@@ -27,6 +27,7 @@
 .buttons {
   display: flex;
   gap: 40px;
+  justify-content: center;
 }
 
 .join-btn, .view-btn {
