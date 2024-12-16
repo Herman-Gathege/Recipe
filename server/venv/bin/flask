@@ -1,4 +1,6 @@
-#!/home/mark/dev/Recipe/server/venv/bin/python3
+#!/bin/sh
+'''exec' "/home/remington/Desktop/Kitchen/projects-not good/Recipe/server/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

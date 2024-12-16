@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Discover from "./components/Discover";
 import SignIn from "./components/SignIn";
 import SignUpModal from "./components/SignUpModal";
+import ProfilePage from "./components/ProfilePage";
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/discover" element={<Discover />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/signup" element={<SignUpModal />} />{" "}
+          <Route path="/signup" element={<SignUpModal />} />
+          <Route path="/profilepage" element={<ProfilePage />} />
+          {" "}
           {/* Updated route path to /signup */}
         </Routes>
       </BrowserRouter>

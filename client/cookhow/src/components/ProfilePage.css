@@ -1,0 +1,229 @@
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: #e9e9e9;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a292b; /* Dark background */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: 'Oregano', sans-serif;
+  font-size: 40px;
+  color: #604461;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #7e777e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}
+
+.profile-section {
+  display: flex;
+  padding: 40px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.profile-pic img {
+  width: 304px;
+  height: 307px;
+}
+
+.upload-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4c2d4e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.profile-info {
+  margin-left: 40px;
+  flex: 1;
+}
+
+.bio textarea,
+.recipe-price input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.upload-recipe,
+.add-to-kitchen {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-recipe {
+  background-color: #4c2d4e;
+  color: white;
+}
+
+.add-to-kitchen {
+  border: 1px solid #4c2d4e;
+  color: #4c2d4e;
+  background-color: transparent;
+}
+
+.activity-section {
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.activity-list {
+  margin-top: 20px;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.footer {
+  background-color: #181018;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.subscribe-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #4c2d4e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-links div {
+  text-align: left;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.recipe-card {
+  background: #f2f2f2;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.recipe-image {
+  width: 100%;
+  height: 404px;
+  object-fit: cover;
+}
+
+.recipe-title {
+  font-size: 24px;
+  color: #4c2d4e;
+  margin: 10px 0;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ratings .stars {
+  color: #fbc02d;
+  font-size: 16px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

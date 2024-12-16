@@ -35,6 +35,7 @@
 import React, { useState } from "react";
 import "./SignIn.css";
 import signIn_pic from "../assets/signIn_pic.png";
+import { Link } from "react-router-dom"; 
 
 const SignIn = () => {
   // State to hold form input values
@@ -105,9 +106,15 @@ const SignIn = () => {
               required
             />
           </div>
+          {/* <button type="submit" className="sign-in-button">
+            Sign in
+          </button> */}
+
+          <Link to="/profilepage">
           <button type="submit" className="sign-in-button">
             Sign in
           </button>
+            </Link>
         </form>
       </div>
     </div>

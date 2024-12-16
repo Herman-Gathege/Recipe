@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #2d242f; /* Dark background */
+  background-color: #2a292b; /* Dark background */
   border-radius: 10px; /* Rounded corners */
   margin: 0 10px;
   z-index: 1000; /* Ensure it stays above other content */
